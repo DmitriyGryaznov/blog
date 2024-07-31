@@ -1,0 +1,45 @@
+$tite-font-color : #000000D9;
+
+
+.header-title{
+color: $tite-font-color;
+text-decoration: none;
+font-size: 18px;
+
+}
+
+.header-button{
+    padding: 10px;
+    background: none;
+    margin-top: 3px;
+    border:none;
+    border-radius: 5px;
+    padding: 8px 18px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    cursor: pointer;
+    border: 1px solid transparent;
+
+  }
+
+  .header-button:hover {
+    color: #43911b;
+    border: 1px solid #43911b;
+  }
+
+  .profile{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+    color: $tite-font-color
+
+  }
+
+  .profile:hover{
+    cursor: pointer;
+  }
